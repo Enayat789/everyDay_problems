@@ -9,7 +9,7 @@ function printNumbers_hundred(arrayLength) {
 
   for (let i = 1; i <= arrayLength; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      forFizzBuzz.push(i);
+      forFizzBuzz.push(" FizzBuzz " + i);
     } else if (i % 3 === 0) {
       forFizz.push(i);
     } else if (i % 5 === 0) {
