@@ -1,14 +1,14 @@
 //  Convert Hours into Seconds
 
-function convertMinute_second(hour) {
-  const min_second = [];
+function convertHour_second(hour) {
+  const hour_second = [];
 
   const convert_toSecond = hour * 60 * 60;
 
-  min_second.push(convert_toSecond);
+  hour_second.push(convert_toSecond);
 
-  return min_second;
+  return hour_second;
 }
 
-const result = convertMinute_second(1);
+const result = convertHour_second(1);
 console.log(result);
