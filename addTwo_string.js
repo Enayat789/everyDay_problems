@@ -4,9 +4,6 @@
 function add_string(string1, string2) {
   const added_string = [];
 
-  // const str1 = string1;
-  // const str2 = string2;
-
   const sum = "This is the sum of two string numbers: " + string1 + string2;
   added_string.push(sum);
 
