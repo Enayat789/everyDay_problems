@@ -4,14 +4,14 @@
 function add_string(string1, string2) {
   const added_string = [];
 
-  const str1 = string1;
-  const str2 = string2;
+  // const str1 = string1;
+  // const str2 = string2;
 
-  const sum = "This is the sum of two string numbers: " + str1 + str2;
+  const sum = "This is the sum of two string numbers: " + string1 + string2;
   added_string.push(sum);
 
   return added_string;
 }
 
-const result = add_string(4, 6);
+const result = add_string(4, 8);
 console.log(result);
